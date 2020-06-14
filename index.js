@@ -18,7 +18,7 @@ const orderRoutes = require('./routes/order');
 const app = express();
 
 mongoose
-  .connect("mongodb://localhost:27017/myproject" ||process.env.MONGODB_URL, {
+  .connect("mongodb://localhost:27017/my"||process.env.MONGODB_URL, {
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false,
